@@ -1,0 +1,599 @@
+body {
+    background-color: rgb(234, 233, 233);
+}
+
+.top {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 90px;
+    background-color: white;
+    z-index: 1;
+}
+
+.bot {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.tren {
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+@media only screen and (min-width: 1440px) {
+    .tren {
+        width: 1440px;
+    }
+}
+
+.logo {
+    padding-top: 10px;
+    width: 96px;
+    height: 64.09px;
+    padding-left: 2em;
+}
+
+.top .tren .logo a img.tiki {
+    width: 96px;
+    height: 40px;
+}
+
+.chu {
+    width: 90px;
+    height: 16px;
+}
+
+.logo .chu a {
+    font-size: 14px;
+    color: rgb(0, 62, 161);
+    text-decoration: none;
+    margin-top: 8px;
+    font-weight: 600;
+
+}
+
+
+
+.info a.trangChu {
+    text-decoration: none;
+}
+
+.tc {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 21px 0 0 750px;
+    border-radius: 9px;
+    transition: 0.4s;
+}
+
+.tc:hover {
+    background-color: rgb(233, 232, 252);
+}
+
+.info a .tc img {
+    width: 28px;
+    height: 28px;
+}
+
+.info a .tc p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgb(10, 104, 255);
+    padding-left: 12px;
+    padding-top: 15px;
+}
+
+.info a.tk {
+    text-decoration: none;
+}
+
+.account {
+    width: 160px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -39px 0 0 900px;
+    border-radius: 9px;
+    transition: 0.4s;
+
+}
+
+.account:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+.info a.tk .account img {
+    width: 30px;
+    height: 28px;
+}
+
+.info a.tk .account p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: rgb(10, 104, 255);
+    padding-left: 12px;
+    padding-top: 15px;
+    color: #8f8d8d;
+}
+
+.buy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    margin: -21px 0 0 520px;
+}
+
+.buy .img1 {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.4s;
+}
+
+.buy .img1:hover {
+    border-radius: 8px;
+    background-color: rgb(225, 224, 245);
+}
+
+.buy img {
+    width: 30px;
+    height: 30px;
+}
+
+.bot .duoi {
+    width: 100%;
+}
+
+@media only screen and (min-width: 1440px) {
+    .duoimid {
+        width: 1440px;
+    }
+}
+
+.bot .duoi .left {
+    width: 230px;
+    height: 1600px;
+    background-color: white;
+    margin: 12px 0 0 50px;
+    border-radius: 8px;
+}
+
+div.duoi .left .chu1 {
+    margin-bottom: 8px;
+    padding-top: 5px;
+    padding-left: 16px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 150%;
+    color: rgb(39, 39, 42);
+}
+
+.left .menu a {
+    display: flex;
+    padding: 7px 20px;
+    text-decoration: none;
+}
+
+.menu a .img img {
+    width: 32px;
+    height: 32px;
+    opacity: 1;
+    /*độ mờ*/
+    margin-right: 8px;
+}
+
+.menu a .chuN {
+    margin-left: 10px;
+    align-items: center;
+    color: black;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.menu .prd {
+    width: 220px;
+    padding: 1px 12px;
+    transition: 0.4s;
+}
+
+.menu .prd :hover {
+    background-color: rgb(222, 224, 224);
+    border-radius: 13px;
+}
+
+.bot .duoi .duoimid {
+    padding-top: 16px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tren1 {
+    background-color: white;
+    width: 947px;
+    height: 328px;
+    padding: 16px;
+    margin: 12px 0 0 25px;
+    border-radius: 10px;
+}
+
+.carousel-item {
+    width: 430px;
+    /* Điều chỉnh chiều rộng của slide */
+    height: 320px;
+    /* Điều chỉnh chiều cao của slide */
+}
+
+.slideDoi {
+    display: flex;
+}
+
+.slideDoi a img {
+    width: 470px;
+    height: 280px;
+    border-radius: 12px;
+    padding: 0 8px 0 8px;
+}
+
+/*
+thanh đếm số trang của slide
+*/
+.carousel-indicators .active {
+    background-color: rgb(30, 66, 226);
+    /* Ví dụ: background-color: blue; */
+    width: 25px;
+    height: 2px;
+}
+
+/*
+nút chuyển slide trái phải
+*/
+.carousel-control-prev,
+.carousel-control-next {
+    width: 35px;
+    height: 35px;
+    opacity: 0;
+    margin-top: 130px;
+}
+
+.carousel-control-prev {
+    margin-left: 14px;
+
+}
+
+.carousel-control-next {
+    margin-right: 7px;
+}
+
+.carousel:hover .carousel-control-prev,
+.carousel:hover .carousel-control-next {
+    opacity: 2;
+    border: 1px solid rgb(245, 134, 167);
+    border-radius: 50%;
+    background-color: rgb(245, 105, 147);
+}
+
+.giua1 {
+    background-color: #FFFFFF;
+    background-image: linear-gradient(303deg, #FFFFFF 0%, #62f4ff 33%, #66eaf3 66%, #f9f7fa 100%);
+    width: 947px;
+    height: 160px;
+    padding: 16px;
+    margin: 12px 0 0 25px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.giua1 .sanPham {
+    margin-top: 10px;
+    width: 110px;
+    height: 95px;
+}
+
+
+.giua1 .sanPham a {
+    display: flex;
+    width: 110px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+}
+
+.giua1 .sanPham a img {
+    width: 64px;
+    height: 64px;
+}
+
+.giua1 .sanPham .hv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 67px;
+    height: 67px;
+    border-radius: 19px;
+    border: 2px solid rgb(233, 119, 128);
+    transition: 0.3s;
+}
+
+.giua1 .sanPham .hv:hover {
+    background-color: rgb(241, 188, 202);
+}
+
+.giua1 .sanPham a p {
+    text-align: center;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 450;
+    color: #000;
+}
+
+.duoi1 {
+    background: linear-gradient(to bottom, rgb(188, 208, 252), rgb(250, 152, 152) 60%);
+    width: 947px;
+    height: 291px;
+    padding: 16px;
+    margin: 12px 0 0 25px;
+    border-radius: 10px;
+}
+
+.duoi1 p {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.duoi1 .to {
+    display: flex;
+}
+
+.duoi11 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 5px 0 5px;
+}
+
+.duoi11 a img {
+    border-radius: 8px;
+    width: 142.1px;
+    height: 213.14px;
+}
+
+.carousel-indicators {
+    visibility: hidden;
+}
+
+.duoi15 {
+    background-color: white;
+    width: 947px;
+    height: 455px;
+    padding: 16px;
+    margin: 12px 0 0 25px;
+    border-radius: 10px;
+}
+
+.duoi155 h3 {
+    height: 38px;
+    margin-left: 3px;
+    color: #000;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.duoi15 .duoi155 .the {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0px;
+}
+
+.duoi15 .duoi155 a {
+    text-decoration: none;
+    width: 130px;
+    height: 350px;
+    margin: 0px 7px 10px 5pxpx;
+}
+
+.duoi15 .duoi155 a .the1 {
+    width: 143.6px;
+    height: 350px;
+    border: 2px solid rgb(199, 197, 197);
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.duoi15 .duoi155 a .the1:hover {
+    background-color: rgb(253, 164, 164);
+}
+
+.duoi15 .duoi155 .the a .the1 img.sp {
+    width: 139px;
+    height: 138px;
+    border-radius: 8px;
+}
+
+.duoi15 .duoi155 .the a .the1 .tem {
+    margin-top: 15px;
+    width: 138px;
+    height: 54px;
+}
+
+.duoi15 .duoi155 .the a .the1 .tem .tem1 {
+    width: 115px;
+    height: 28px;
+}
+
+.duoi15 .duoi155 .the a .the1 .tem .tem2 {
+    margin-top: 5px;
+    width: 115px;
+    height: 28px;
+}
+
+.duoi15 .duoi155 .the a .the1 h3 {
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 3px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.sao {
+    display: flex;
+    padding-top: 1px;
+    padding-left: 2px;
+}
+
+.sao img.sao {
+    width: 13px;
+    height: 13px;
+}
+
+.price {
+    margin-left: 5px;
+    font-size: 20px;
+    color: #1d1c1c;
+    font-weight: 600;
+}
+
+.duoi2 {
+    background: linear-gradient(to right, rgb(209, 241, 203), rgb(245, 186, 186) 70%);
+    width: 947px;
+    height: 339.32px;
+    padding: 16px;
+    margin: 12px 0 0 25px;
+    border-radius: 10px;
+}
+
+.duoi22 {
+    width: 940px;
+    height: 307.34px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.duoi22 .duoi222 {
+    width: 145px;
+    height: 145px;
+    border-radius: 8px;
+    margin: 6px 3px 3px 3.5px;
+    border: 1px solid grey;
+}
+
+.duoi22 .duoi222:hover {
+    border: 2px dashed red;
+}
+
+.duoi222 a img {
+    width: 141px;
+    height: 141px;
+    border-radius: 8px;
+}
+
+
+
+.duoi3 {
+    width: 947px;
+    height: 1550px;
+    background-color: white;
+    padding: 16px;
+    margin: 12px 0 0 25px;
+    border-radius: 10px;
+}
+
+.duoi3 .duoi33 p {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.duoi3 .duoi33 .the {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 18px;
+
+}
+
+.duoi3 .duoi33 a {
+    text-decoration: none;
+    width: 150px;
+    height: 350px;
+    margin: 10px 7px 10px 18px;
+}
+
+.duoi3 .duoi33 a .the1 {
+    width: 158px;
+    height: 350px;
+    border: 2px solid rgb(199, 197, 197);
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.duoi3 .duoi33 a .the1:hover {
+    background-color: rgb(252, 253, 164);
+}
+
+.duoi3 .duoi33 .the a .the1 img.sp {
+    width: 153px;
+    height: 152px;
+    border-radius: 8px;
+}
+
+.duoi3 .duoi33 .the a .the1 .tem {
+    margin-top: 15px;
+    width: 138px;
+    height: 54px;
+}
+
+.duoi3 .duoi33 .the a .the1 .tem .tem1 {
+    width: 115px;
+    height: 28px;
+}
+
+.duoi3 .duoi33 .the a .the1 .tem .tem2 {
+    margin-top: 5px;
+    width: 115px;
+    height: 28px;
+}
+
+.duoi3 .duoi33 .the a .the1 h3 {
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 3px;
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.sao {
+    display: flex;
+    padding-top: 1px;
+    padding-left: 2px;
+}
+
+.sao img.sao {
+    width: 13px;
+    height: 13px;
+}
+
+.price {
+    margin-left: 5px;
+    font-size: 20px;
+    color: #1d1c1c;
+    font-weight: 600;
+}
